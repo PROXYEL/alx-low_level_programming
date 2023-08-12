@@ -1,16 +1,21 @@
 #include<studio.h>
 /**
-* main - Entry point
+* main - A program that prints the size of various computer types
 *
 * Return: Always 0 (Success)
 */
 int main(void)
 {
-printf("size of a char %d byte(s)\n", sizeof(char));
-printf("size of an int %d byte(s)\n", sizeof(int));
-printf("size of a long int %d byte(s)\n", sizeof(long int));
-printf("size of a long long int: %d byte(s)\n", sizeof(long long int));
-printf("size of a float: %d byte(s)\n", sizeof(float));
+   	char a;
+	int b;
+	long int;
+	long long int;
+	float f;
+
+printf("Size of a char; %lu byte(s)\n", (unsigned long)sizeof(a));
+printf("Size of an int; %lu byte(s)\n", (unsigned long)sizeof(b));
+printf("Size of a long int; %lu byte(s)\n", (unsigned long)sizeof(c));
+printf("Size of a long long int; %lu byte(s)\n", (unsigned long)sizeof(d));
+printf("Size of a float; %lu byte(s) \n",(unsigned long)sizeof(e));
 return(0);
 }
-
