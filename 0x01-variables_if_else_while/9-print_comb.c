@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * main -
- * print decimal with, and space
+ * main - print decimal with, and space
  *
  * Return: (0)
  *
@@ -18,7 +17,8 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
-		putchar('\n');
+	}
+	putchar('\n');
 
-		return (0);
+	return (0);
 }
