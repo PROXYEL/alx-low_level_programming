@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * main - prints alphabets expect q and e
+ * main - prints alphabets except q and e
  *
- * Return: Always (0)
+ * Return:
+ * always (0)
  *
  */
 int main(void)
@@ -13,9 +14,11 @@ int main(void)
 	{
 		if (i != 'e' && i != 'q')
 		{
-		putchar(i);
+		putchar (i);
 		}
 		i++;
 	}
 	putchar('\n');
 	return (0);
+}
+
