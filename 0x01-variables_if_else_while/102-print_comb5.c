@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print digits in 2s separated by ,
+ * main - print digits in 2s separed by ,
  *
  * Return: (0)
  *
