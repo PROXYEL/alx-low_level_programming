@@ -15,4 +15,5 @@ char *rot13(char *);
 void print_number(int n);
 char *infinte_add(char *n1, char *n2, char *r, int sizs_r);
 void print_buffer(char *b, int size);
+
 #endif
