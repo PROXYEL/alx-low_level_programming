@@ -6,7 +6,7 @@
  *
  * Return: Nothing.
  */
-void_puts_recursion(char *s)
+void _puts_recursion(char *s)
 {
 	if (*s == '\0')
 	{
@@ -14,7 +14,7 @@ void_puts_recursion(char *s)
 		return;
 	}
 
-	_puthcar(*s);
+	_putchar(*s);
 	s++;
 	_puts_recursion(s);
 }
