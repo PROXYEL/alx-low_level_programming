@@ -3,19 +3,20 @@
 #include <stdio.h>
 
 /**
- * _realloc - ...
- * @ptr: ...
- * @old_size: ...
- * @new_size: ...
- *
- * Return: ...
- */
-void *realloc(void *ptr, unsigned int old_size, unsigned int new_size)
+  * _realloc - ...
+  * @ptr: ...
+  * @old_size: ...
+  * @new_size: ...
+  *
+  * Return: ...
+  */
+
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	char *nptr;
 	unsigned int i;
 
-	if (new_size == old size)
+	if (new_size == old_size)
 		return (ptr);
 
 	if (ptr == NULL)
@@ -35,6 +36,7 @@ void *realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 			return (NULL);
 		}
 	}
+
 	nptr = malloc(new_size);
 
 	if (nptr == NULL)
